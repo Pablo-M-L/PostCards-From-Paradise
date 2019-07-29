@@ -16,6 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+         if let splitview = window?.rootViewController as? UISplitViewController { //viewcontroler principal.
+            //mostrar siempre el splitview. incluso en portrait.
+            splitview.preferredDisplayMode = .allVisible
+            
+            //añadir boton que permita mostra/ocultar splitview.
+            //accede al navigationItem (barra de navegacion) del navcontroller que contiene el topviewcontroller, y modifica el boton de la izquierda.
+            if let navcontroller = splitview.viewControllers.last as? UINavigationController { //obtiene un array de los viewcontroller y coge el ultimo.
+                navcontroller.topViewController?.navigationItem.leftBarButtonItem = splitview.displayModeButtonItem //cambia el boton para que se muestre el simbolo de ampliar y no el de back que hay por defecto.
+            }
+            
+        }
+        
+        
         return true
     }
 

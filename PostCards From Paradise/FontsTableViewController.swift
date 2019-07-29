@@ -16,6 +16,7 @@ class FontsTableViewController: UITableViewController, UITableViewDragDelegate {
         super.viewDidLoad()
 
         self.tableView.dragDelegate = self
+        tableView.dragInteractionEnabled = true
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
