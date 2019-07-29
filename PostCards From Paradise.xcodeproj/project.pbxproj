@@ -12,6 +12,7 @@
 		8472C78122EC186000C69118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8472C77F22EC186000C69118 /* Main.storyboard */; };
 		8472C78322EC186200C69118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8472C78222EC186200C69118 /* Assets.xcassets */; };
 		8472C78622EC186200C69118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8472C78422EC186200C69118 /* LaunchScreen.storyboard */; };
+		8472C78E22EC18F300C69118 /* FontsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472C78D22EC18F300C69118 /* FontsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8472C78222EC186200C69118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8472C78522EC186200C69118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8472C78722EC186200C69118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8472C78D22EC18F300C69118 /* FontsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				8472C78222EC186200C69118 /* Assets.xcassets */,
 				8472C78422EC186200C69118 /* LaunchScreen.storyboard */,
 				8472C78722EC186200C69118 /* Info.plist */,
+				8472C78D22EC18F300C69118 /* FontsTableViewController.swift */,
 			);
 			path = "PostCards From Paradise";
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8472C77E22EC186000C69118 /* ViewController.swift in Sources */,
+				8472C78E22EC18F300C69118 /* FontsTableViewController.swift in Sources */,
 				8472C77C22EC186000C69118 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
